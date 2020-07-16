@@ -1,0 +1,90 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url("/img/zeldaBg1.jpg");
+    background-size: cover;
+    background-attachment: fixed;
+    position: absolute;
+}
+
+/* ******************** PAGE INSCRIPTION ******************** */
+
+.inscription-bloc {
+    width: 400px;
+    height: 450px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 50px black;
+}
+
+h2 {
+    margin-top: 0;
+    font-size: 1.8em;
+}
+
+.inscription-label {
+    display: inline-block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.inscription-input {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 15px;
+    border-style: none;
+    border-radius: 4px;
+    background-color: rgb(240, 240, 240);
+    padding-left: 10px;
+}
+
+.inscription-input:focus {
+    background-color: rgb(230, 230, 230);   
+}
+
+.inscription-submit {
+    width: 100%;
+    height: 50px;
+    background-color: rgb(49, 79, 168);
+    color: white;
+    border-radius: 4px;
+    border-style: none;
+    margin: 10px 0 10px 0;
+    font-size: 1.2em;
+}
+
+.inscription-submit:hover {
+    border: 2px solid rgb(49, 79, 168);
+    background-color: white;
+    color: rgb(49, 79, 168);
+    cursor: pointer;
+}
+
+.inscription-bottom-bloc {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    }
+
+.inscription-bottom {
+    text-decoration: none;
+    color: rgb(100, 100, 100);
+    display: inline-block;
+}
+
+a:hover {
+    color: black;
+}
